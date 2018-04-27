@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scanner Application</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/48938155eb24b4ccdde09426066869504c6dab3c/dist/css/bootstrap.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+  </head>
+  <body>
+    <div class="container-fluid" id="mainapp">
+      <div class="left-column col-3" id="leftpane">
+          <div class="top-left-div" id="thumbnail_list">Thumnails here!
+          </div>
+          <div class="bottom-div-border btn-box" id="leftpaneaction">
+              <div class="row btn-row">
+                  <button type="button" class="btn btn-secondary btn-sm">Move Up</button>
+                  <button type="button" class="btn btn-secondary btn-sm">Move Down</button>
+              </div>
+              <div class="row btn-row">
+                  <button type="button" class="btn btn-secondary btn-sm">Insert</button>
+                  <button type="button" class="btn btn-secondary btn-sm">Rescan</button>
+                  <button type="button" class="btn btn-secondary btn-sm">Append</button>
+                  <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                  <button type="button" class="btn btn-danger btn-sm">Delete All</button>
+              </div>
+              <div class="">
+                <button type="button" class="btn btn-primary btn-sm">Save</button>
+                <button type="button" class="btn btn-info btn-sm">Cancel</button>
+              </div>
+          </div>
+      </div>
+      <div class="right-column col-9" id="rightpane">
+          <div class="top-right-div" id="docview">
+          </div>
+          <div class="bottom-div-border" id="rightpaneaction">
+                <button type="button" class="btn btn-secondary btn-sm">Previous</button>
+                <button type="button" class="btn btn-secondary btn-sm">Next</button>
+                <button type="button" class="btn btn-secondary btn-sm">Zoom Out</button>
+                <button type="button" class="btn btn-secondary btn-sm">Zoom In</button>
+                <button type="button" class="btn btn-secondary btn-sm">Fit Page</button>
+                <button type="button" class="btn btn-secondary btn-sm">Fit Width</button>
+                <button type="button" class="btn btn-secondary btn-sm">Actual Size</button>
+              </div>
+          </div>
+      </div>
+    </div>
+  </body>
+  <script src="/bundle.js"></script>
+</html>
