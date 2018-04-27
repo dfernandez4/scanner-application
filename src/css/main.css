@@ -1,0 +1,412 @@
+
+/*
+Template CSS
+*/
+.navbar-default{
+    background-color:#337ab7 !important;
+    border-color:#337ab7 !important;
+    position:absolute;
+    top:0px;
+    width:100%;
+    border-radius:0;
+}
+.top-nav > li > a{
+    color:white !important;
+}
+.navbar-nav > li > a{
+    color:white !important;
+}
+#nav_home_link{
+    cursor:pointer;
+}
+#page-wrapper{
+    background-color:#ccc;
+}
+.content_container{
+    margin-right:50px; 
+    margin-left:50px;
+    margin-top:10px;
+    background-color:#ccc;
+}
+.row{
+    margin-bottom:5px;
+}
+.page_title{
+    width:60%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:15px;
+    height:40px;
+}
+.page_title_text{
+    padding-top:7px;
+}
+.input_label_an{
+    font-size:12px;
+}
+#date_check{
+    margin-top:30px;
+}
+.date_format{
+    margin-right:5px;
+}
+.center_container{
+    text-align:center;
+}
+.search_button{
+    width:400px !important;
+    display:inline-block !important;
+    margin-right:5px;
+}
+.clear_button{
+    width:200px !important;
+    display:inline-block !important;
+    margin-bottom:5px !important;
+    margin-right:5px;
+}
+.report_button{
+    width:200px !important;
+    display:inline-block;
+    margin-bottom:5px !important;
+}
+#results_div{
+    margin-top:10px;
+}
+.loading_spinner{
+    font-size:44px !important;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+ .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover{
+     color: white !important;
+     background-color:#337ab7 !important;
+ }
+ .dropdown-submenu{
+     display:none;
+     list-style-type: none;
+ }
+ .dropdown-submenu > li:hover{
+     background-color:#337ab7;
+ }
+ .dropdown-submenu > li:hover a{
+     color:white;
+ }
+ .dropdown-submenu > li > a{
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.4285;
+    color: #333;
+    white-space: nowrap;
+    text-decoration:none;
+}
+ .dropdown-menu li{
+     position:relative;
+ }
+ .dropdown-submenu{
+   position:absolute;
+   right:auto;
+   left:100%;
+   top:0px;
+   background-color:#fff;
+   border:1px solid rgba(0, 0, 0, .15);
+   border-radius:4px;
+   box-shadow: 0px 6px 12px rgba(0,0,0,0.175);
+   padding:0px;
+ }
+ .dropdown-menu li:hover ul{
+     display:block;
+ }
+ .caret-right {
+    float:right;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-left: 5px solid;
+    border-left-color:#999999;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    margin-top:5px;
+    margin-right:-8px;
+}
+ .first_view_header{
+     margin-top:0px !important;
+     margin-bottom:20px !important;
+ }
+ .view_header{
+     margin-top:15px !important;
+     margin-bottom:20px !important;
+ }
+ .search_results_header{
+     border-bottom:1px solid black !important;
+ }
+ .total_records{
+     font-weight:bold; 
+     float:right; 
+     margin-top:5px;
+ }
+ .search_results_table > tbody > tr > td {
+     border-top: 1px solid #B8B8B8;
+     cursor: pointer;
+ }
+ .search_results_table > thead > tr > th {
+     border-bottom: 1px solid #B8B8B8;
+ }
+ #order_by_select{
+     width:auto;
+     position:absolute;
+     right:120px;
+ }
+ #order_by_select::-ms-value{ 
+     background-color: #fafafa; 
+     color: black; 
+ }
+ .form-control{
+     text-transform: none !important;
+ }
+ #opr_receipt{
+     background-color:white;
+ }
+ #opr_receipt_county_info{
+     font-size:13px;
+ }
+ .opr_receipt_header_info{
+      font-size:13px;
+      text-align: right;
+ }
+ .opr_receipt_top_header_div{
+     margin-top:-90px;
+     margin-left:10px;
+     margin-right:10px;
+	  padding-bottom:20px;
+ }
+ .opr_receipt_info_list{
+     list-style: none;
+     padding-left:0px !important;
+ }
+ .opr_receipt_subheader{
+     float:left;
+     padding-left:0px !important;
+     font-size:13px;
+ }
+ .opr_receipt_date_list{
+     float:right;
+     list-style: none;
+ }
+ .opr_receipt_header{
+    float:right;
+ }
+ .opr_receipt_payment_container{
+    margin-top:40px;
+    margin-right:30px; 
+    margin-left:30px;
+ }
+ .opr_receipt_payment_table,  .opr_receipt_item_table{
+     width:100%;
+     font-size:16px;
+ }
+ .opr_receipt_item_fee_table{
+ 	margin-top:40px;
+ 	margin-bottom:40px;
+ 	border-top:2px solid #B8B8B8;
+     width:100%;
+     font-size:14px;
+ }
+ .opr_receipt_payment_table th,  .opr_receipt_item_table th{
+     text-align:center;
+     padding-left:5px;
+     padding-right:5px;
+     font-size:15px;
+ }
+.opr_receipt_item_fee_table th{
+	text-align:right;
+     padding-left:5px;
+     padding-right:5px;
+     font-size:18px;
+ }
+ #fee_left{
+	text-align:left;
+     padding-left:5px;
+     padding-right:5px;
+     font-size:20px;
+ }
+.opr_receipt_payment_table td{
+     background-color:#E8E8E8;
+     padding-left:10px;
+	 padding-top:5px;
+ }
+ .opr_receipt_item_table td{
+     text-align: center;
+     background-color:#E8E8E8;
+     padding-left:5px;
+     padding-right:5px;
+ }
+  .item_row td{
+     padding-top:10px;
+	 font-size:13px;
+ }
+  #totals_row td{
+	  padding-top:5px;
+	 padding-bottom:5px;
+ }
+	.item_row_totals tr td{
+     padding-top:10px;
+	 border:1px solid black;
+ }
+ .opr_receipt_amounts_table{
+     margin-top:20px;
+     float:right;
+     font-size:15px;
+ }
+ .opr_receipt_amounts_table td{
+     padding-right:10px;
+ }
+ .opr_receipt_payment_cell{
+     text-align:right;
+     padding-left:50px;
+ }
+ .opr_receipt_receceived_header{
+	margin-right:10px;
+     font-size:12px;
+	 text-align:right;
+	 margin-top:50px;
+ }
+ #opr_receipt_received_by{
+     border-bottom:1px solid black;
+     padding-right:10px;
+     padding-left:10px;
+ }
+ .opr_receipt_bottom_header{
+     margin-top:20px;
+     text-align:center;
+ }
+ .nav-tabs{
+     margin-top:10px;
+     border-bottom:1px solid #B8B8B8;
+ }
+ .nav-tabs > li > a{
+     background-color:#337ab7;
+     color:white;
+     border-radius:10px 10px 0 0;
+     min-width:100px;
+     text-align:center;
+ }
+ .nav-tabs > li > a:hover{
+     background-color:#286090;
+     border-color:#286090;
+     color:white;
+ }
+ .nav-tabs > li.active{
+     font-weight:bold;
+ }
+#ownerTable thead tr th, #namesTable thead tr th, #stylesTable thead tr th, #legalDescTable thead tr th, #logsTable thead tr th, #opr_queue_table thead tr th{
+     border-bottom:1px solid #B8B8B8 !important;
+ } 
+ #ownerTable tbody tr td, #namesTable tbody tr td, #stylesTable tbody tr td, #legalDescTable tbody tr td, #logsTable tbody tr td, #opr_queue_table tbody tr td{
+     border-top:1px solid #B8B8B8 !important;
+ }
+ #ownerTable tbody tr, #namesTable tbody tr, #stylesTable tbody tr, #legalDescTable tbody tr, #logsTable tbody tr, #opr_queue_table tbody tr{
+     cursor:pointer;
+ }
+ .opr_tab_empty{
+     margin-top:10px;
+     font-size:15px;
+     font-weight:bold;
+ }
+ .table_row{
+     margin-top:-25px;
+ }
+ .dropdown > a{
+     cursor: default;
+ }
+ .top-nav > li > a:hover{
+     background-color:#286090;
+     color:black;
+ }
+ .an_modal, .misc_modal{
+     width:60%;
+ }
+ .cjisReportingTable{
+     background-color:#cccccc !important;
+ }
+ .caption, .realSideNavigation table tr td{
+    background-color:#337ab7 !important;
+ }
+ .caption {
+     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+     font-weight:500;
+     line-height:1.1;
+     font-size:24px;
+     color:white;
+     text-align:center;
+ }
+ .realSideNavigation table tr td{
+    border-bottom: 1px solid white !important;
+ }
+td > a {
+    text-decoration:underline;
+ }
+ .nav-tabs > li.active > a,  .setup-tabs > .active{
+    background-color: #f5f5f5;
+ }
+ #saveButton{
+     margin-top:20px;
+     margin-bottom:30px;
+ }
+.alert-container {
+    width:100%;
+    margin:auto;
+    margin-top:-10px;
+    margin-bottom:20px;
+ }
+ .alert-message{
+    margin:auto; 
+    width:40%;
+ }
+ .ddsmoothmenu, .ddsmoothmenu ul li a {
+     background:#337ab7 !important;
+ }
+ .ddsmoothmenu ul li a:hover {
+    background: #286090 !important;
+    color:white !important;
+ }
+ .reports-table .form-control, .calendar-table .form-control, .maintenance-table .form-control {
+     width:40%;
+ }
+ .child-support-table .form-control,  .cases-table .form-control{
+     width:60%;
+ }
+ .reports-table a, .cases-table a,  .calendar-table a{
+     text-decoration: underline !important;
+     color: #23527c !important;
+ }
+ .reports-table a:hover, .cases-table a:hover, .calendar-table a:hover{
+    color: #337ab7 !important;
+ }
+ .calendar-table td{
+     padding-top:10px;
+ }
+ .alloted-time{
+     width:20% !important;
+     display:inline;
+ }
+ .calendar-day-scheduled{
+     background-color: #337ab7 !important;
+ }
+ .calendar-day-scheduled a font, .calendar-day-scheduled a{
+     color:white !important;
+ }
+ #next-month, #previous-month{
+     font-size:14px !important;
+ }
+ .large-textarea{
+     width:70% !important;
+ }
+.tableBlue{
+    background: #337ab7 !important;
+ }
