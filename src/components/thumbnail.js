@@ -1,21 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Thumbnail extends Component {
-
-  constructor(props) {
-    super(props);
-
-    this.state = { sourceURL: ''};
-  }
-
-  render () {
-    return <img src="{this.state.sourceURL}"/>;
-  }
-
-  //new methods
-  setURL() {
-
-  }
-}
+const Thumbnail = (props) => {
+    return <img src={props.sourceURL} />;
+};
 
 export default Thumbnail;
